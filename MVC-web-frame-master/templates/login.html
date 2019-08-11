@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+    <style type="text/css">
+			body {
+				background-color: #f3f3f3;
+				margin-left: 20%;
+				margin-right: 20%;
+				border: 2px dotted black;
+				padding: 10px 10px 50px 50px;
+				font-family: sans-serif;
+			}
+    </style>
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 {{username}}</h2>
+    <form action="/user/login" method="post">
+        <input type="text" name="username" placeholder="测试账号：test">
+        <br>
+        <input type="text" name="password" placeholder="测试密码：123">
+        <br>
+        <button type="submit">登录</button>
+    </form>
+    <h3>{{result}}</h3>
+</body>
+</html>
