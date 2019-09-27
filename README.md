@@ -16,3 +16,9 @@
 
 
 ----------
+注册
+![image](https://github.com/takamina1220/takamina/blob/master/MVC-web-frame-master/gif/1.gif)
+登陆
+![image](https://github.com/takamina1220/takamina/blob/master/MVC-web-frame-master/gif/2.gif)
+微博
+![image](https://github.com/takamina1220/takamina/blob/master/MVC-web-frame-master/gif/5.gif)
