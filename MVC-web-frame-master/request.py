@@ -2,7 +2,6 @@ import urllib.parse
 from utils import log
 
 
-# 定义一个 class 用于保存请求的数据
 class Request(object):
     def __init__(self, raw_data):
         header, self.body = raw_data.split('\r\n\r\n', 1)
